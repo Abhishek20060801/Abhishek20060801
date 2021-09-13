@@ -1,0 +1,325 @@
+.logo {
+
+    display: grid;
+    background-color: rgb(56, 54, 54);
+    grid-template-areas: "content1 content2";
+    width: 100%;
+    position: sticky;
+    top: 3px; 
+  
+    
+}
+
+#content1 {
+
+    grid-area: content1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0.5cm;
+    position: absolute;
+}
+
+#content2 {
+
+    grid-area: content2;
+
+}
+
+#content2 input[type=button] {
+
+    background-color: rgb(7, 185, 7);
+    color: white;
+    height: 1cm;
+    width: 2.5cm;
+    margin-left: 88%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 2px rgb(7,185,7);
+    transition: .4s;
+}
+
+#content2 input[type=button]:hover {
+
+    color: black;
+    background-color: white;
+
+}
+
+.temple {
+
+    background-image: url(isha.jpg);
+    background-size: 50cm 25cm;
+    background-repeat: no-repeat;
+    width: 50cm;
+    height: 25cm;
+    
+}
+
+.content3 {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5cm;
+    grid-template-areas: "raj raj1";
+    display: grid;
+
+}
+
+#raj {
+
+    grid-area: raj;
+
+}
+
+#raj1 {
+
+    grid-area: raj1;
+    margin-left: 18cm;
+
+}
+
+#raj1 a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 1cm;
+    transition: 0.4s;
+    
+
+}
+
+#raj1 a:hover {
+
+    color: rgb(71, 30, 77);
+
+}
+
+#raj1 input[type=button] {
+
+    background-color: brown;
+    height: 50px;
+    width: 4cm;
+    color: white;
+    border-radius: 25px;
+    border: 2px burlywood;
+    margin-left: 1cm;
+    transition: .4s;
+
+}
+
+#raj1 input[type=button]:hover {
+
+    color: black;
+    background-color:white;
+
+}
+
+.content4 {
+
+    font-size: 30px;
+    margin-left: 9cm;
+    color: white;
+
+}
+
+.content4 input[type=button] {
+
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 4.5cm;
+    border-radius: 30px;
+    border: 2px white;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+
+.content4 input[type=button]:hover {
+
+    color: rgb(71, 30, 77);
+    background-color: rgb(7, 164, 185);
+
+}
+
+.container {
+
+    display: grid;
+    width: 40cm;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    grid-template-areas: "content11 content12 content13"
+                            "content14 content14 content14";
+
+
+}
+
+.content11 {
+
+
+    grid-area: content11;
+
+}
+
+.content12 {
+
+    grid-area: content12;
+
+}
+
+.content13 {
+
+    grid-area: content13;
+
+}
+
+.content14 {
+
+    grid-area: content14;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1cm;
+
+}
+
+.content11 p {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.content12 p {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.content13 p {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.content14 p {
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#color {
+
+    background-color: rgb(247, 244, 244);
+
+}
+
+.container1 {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 32.5cm;
+
+}
+
+.container1 h1 {
+
+    font-size: 45px;
+
+}
+
+.raj8504 {
+
+    display: grid;
+    width: 32.5cm;
+    grid-template-areas: "content21 content22 content23";
+    grid-gap: 1cm;
+
+}
+
+.content21 {
+
+    grid-area: content21;
+
+}
+
+.content21 p {
+
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+
+}
+
+.content22 {
+
+    grid-area: content22;
+
+}
+
+.content22 p {
+
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+
+}
+
+.content23 {
+
+    grid-area: content23;
+
+}
+
+.content23 p {
+
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+
+}
+
+section {
+
+background-image: url(isha.jpg);
+
+}
+
+section p {
+
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
+}
+
+section input[type=button] {
+
+    margin-left: 47%;
+    width: 4cm;
+    height: 1.5cm;
+    background-color: transparent;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    text-decoration: bold;
+    transition: 0.4s;
+
+}
+
+section input[type=button]:hover {
+
+    color: black;
+    background-color: lightgreen;
+
+}
+
+@media only screen and (max-width: 550px) {
+
+
+
+
+}
